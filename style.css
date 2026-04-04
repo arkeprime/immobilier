@@ -1,0 +1,113 @@
+/* =========================
+   CONTACT RESPONSIVE FIX
+   ========================= */
+
+@media (max-width: 768px) {
+
+  /* الكونتينر العام */
+  .container {
+    padding: 15px;
+  }
+
+  /* ===== CONTACT CARDS ===== */
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .contact-card {
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+  }
+
+  .contact-card h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .contact-card p {
+    font-size: 14px;
+  }
+
+  .contact-icon {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .contact-info {
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 8px;
+  }
+
+  /* ===== FORM ===== */
+  .main-form {
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .form-title {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .form-title h2 {
+    font-size: 22px;
+  }
+
+  .form-title p {
+    font-size: 14px;
+  }
+
+  .form-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .form-group {
+    width: 100%;
+  }
+
+  .form-group label {
+    font-size: 13px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 8px;
+  }
+
+  .form-group.full {
+    grid-column: span 1;
+  }
+
+  /* ===== BUTTON ===== */
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+
+  /* ===== FOOTER ===== */
+  .footer-content {
+    text-align: center;
+  }
+
+  .footer-logo {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+}
